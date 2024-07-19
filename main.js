@@ -20,7 +20,7 @@ foodimg.setAttribute('alt', 'apple');
 let gridSize = 25;
 
 let food = generateFood();
-let wall = generateWall()
+
 // console.log("llllll---->>>>>",wall);
 
 
@@ -70,23 +70,6 @@ function setPosition(element, position) {
 
 //  draw()
 
-function drawWall(count) {
-    for (let i = 0; i < count; i++) {
-        let WallElement = createElement("div", "wall");
-        setPosition(WallElement, wall)
-        board.appendChild(WallElement)
-
-    }
-
-
-}
-
-function generateWall() {
-    let x = Math.floor(Math.random() * gridSize) + 1;
-    let y = Math.floor(Math.random() * gridSize) + 1;
-    return { x, y }
-
-}
 
 
 
