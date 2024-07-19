@@ -178,10 +178,6 @@ function tie() {
         let audio = new Audio("./sounds/die.mp3");
         audio.play();
         resetGame()
-    } else if (head.x === wall.x && head.y === wall.y) {
-        let audio = new Audio("./sounds/die.mp3");
-        audio.play();
-        resetGame()
     }
 
     for (let i = 1; i < snake.length; i++) {
