@@ -26,10 +26,6 @@ body{
     border: rgb(194, 0, 0) 5px solid;
 }
 
-.wall{
-    background-color: #ad6500;
-    border: #fcb552  5px solid;
-}
 
 #game-bord{
     /* border-radius: 100px;  */
